@@ -1,0 +1,19 @@
+---
+MainPage: 
+  xpath:
+    SubmitButton: //*[@id="mailbox__auth__button"]
+    LoginForm: //*[@id="mailbox__login"]
+    PasswordForm: //*[@id="mailbox__password"]
+    # DomenForm: //select[@id='mailbox__login__domain']/option[2]
+InboxPage:
+  xpath:
+    WriteALetterButton: (//*[@class='b-toolbar__btn js-shortcut'])[1]
+    Body: //div/div[2]/div
+ComposePage:
+  xpath:    
+    ToForm: //textarea[@class='js-input compose__labels__input']
+    ThemeForm: //div[@class='compose-head__field']/input[@class='b-input']
+    Iframe: //iframe[contains(@id, "toolkit")]
+    LetterFormInsideIframe: //*[@id="tinymce"]
+    SubmitButton: (//div[@class='b-toolbar__btn b-toolbar__btn_ b-toolbar__btn_false js-shortcut'])[1]
+

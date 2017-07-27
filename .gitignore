@@ -1,0 +1,4 @@
+*.exe
+/element.py
+/geckodriver.log
+/locators.py
